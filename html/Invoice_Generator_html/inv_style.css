@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-frame{
+    width: 90%;
+    margin: 1.5% 5%;
+    /* position: flex; */
+    border: 1px solid black;
+}
+
+.inv_logo{
+    width: 15%;
+    /* left: 1%; */
+}
+
+.header{
+    width: auto;
+    text-align: center;
+    padding: 0 2%;
+    border-bottom: 1px solid black;
+}
+
+.in-dt{
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.addqr{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1%; */
+}
+
+.address{
+    height: auto;
+    width: 70%;
+    padding: 1%;
+    /* border-bottom: 2px solid black;
+    border-right: 2px solid black; */
+}
+
+.qr{
+    height: auto;
+    width: 30%;
+    padding: 1%;
+    text-align: center;
+    /* border-bottom: 2px solid black;
+    border-right: 2px solid black; */
+}
+
+.qr img{
+    max-height: 100px;
+    border: 1px solid black;
+}
+
+.items-table{
+    height: auto;
+    width: 98%;
+    margin: 0 1%;
+    /* border: 2px solid black; */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+/* 
+table tr{
+    /* border: 2px solid black; */
+ 
+
+table tr th{
+    padding: .4%;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid black;
+}
+
+table tr td{
+    padding: .3%;
+}
+
+.t_no{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.t_txt{
+    border: 1px solid black;
+}
+
+.t_h_1{
+    width: 10%;
+}
+
+.t_h_2{
+    width:45%;
+    border-left: 1px solid black;
+}
+
+.t_h_3{
+    width: 21%;
+    border-left: 1px solid black;
+}
+
+.total{
+    height: auto;
+    width: 98%;
+    margin: .5% 1%;
+    display: flex;
+    /* border: 1px solid black  ; */
+}
+
+.subtotal{
+    height: auto;
+    width: 98%;
+    margin: .1% 1%;
+    display: flex;
+    /* border: 1px solid black ; */
+}
+
+.subtotal_text{
+    width: 80%;
+    text-align: right;
+    /* border: 1px solid black; */
+}
+
+.subtotal_amt{
+    width: 20%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.total_text{
+    width: 80%;
+    text-align: right;
+    padding: .5% 0;
+    /* border: 1px solid black; */
+}
+
+.total_amt{
+    width: 20%;
+    text-align: center;
+    padding: .5% 0;
+    border: 1px solid black;
+}
+
+.thanks{
+    height: auto;
+    width: 98%;
+    margin: .5% 1%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+.inv-txt{
+    height: auto;
+    width: 98%;
+    margin: 0 1%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    border-bottom: 1px dotted black;
+}
+
+.prnt_btn{
+    width: 90%;
+    text-align: center;
+    margin: 1% 5%;
+}
+
+#print{
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px black;
+}
+
+.line{
+    border: 1px dashed black;
+}
+
+.blank_sign{
+    width: 70%;
+    /* text-align: right; */
+    padding: .5% 0;
+}
+
+.blank_sign a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign_space{
+    width: 30%;
+    text-align: center;
+    padding: .5% 0;
+    border: 1px solid black;
+}
+
+.sign{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.sign img{
+    max-height: 30px;
+}
+
+.sign_text{
+    text-align: center;
+    font-size: small;
+}
+
+.sign_text b{
+    font-size: larger;
+}
